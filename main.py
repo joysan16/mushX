@@ -9,9 +9,9 @@ from gemini_analyzer import analyze_leaf_disease
 from telegram_bot import send_telegram_message 
 
 # 2. DEFINE CONFIGURATION VARIABLES HERE
-TELEGRAM_BOT_TOKEN = "8570441603:AAFIdOR5hkE73JDbZZSm2vPlIQ0HaKjynfM" 
-TELEGRAM_CHAT_ID = "6294416219" 
-GEMINI_API_KEY = "AIzaSyCuuE6_I4NzmQz99ADo5a5sbb3wfND62Wk" 
+TELEGRAM_BOT_TOKEN = "****" 
+TELEGRAM_CHAT_ID = "***" 
+GEMINI_API_KEY = "***" 
 
 # 3. DEFINE THE MAIN ASYNC FUNCTION FIRST
 async def main_workflow():
