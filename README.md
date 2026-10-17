@@ -6,7 +6,7 @@
 
 <table>
   <tr>
-    <td><img src="images/result-edible.jpg" width="250"></td>
+    <td><img src="images/result-edible.jpg" width="350"></td>
     <td><img src="images/result-poor-image.jpg" width="250"></td>
     <td><img src="images/result-unknown-species.jpg" width="250"></td>
   </tr>
@@ -34,7 +34,7 @@ grounded. The system is designed to say "Unknown" rather than guess.
 - RAG grounding against a mushroom knowledge base to reduce hallucinations
 - Safety-first behavior: poor or unclear images return Unknown with a warning
 - Results delivered through a Telegram bot
-- [Sensor readings, if sensor_utils.py is used: list which]
+  
 
 ## Safety-First Design
 - A dark or blurry image returns **Unknown, 0% confidence** instead of a guess.
